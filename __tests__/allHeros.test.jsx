@@ -672,6 +672,13 @@ describe('allHeros', () => {
     expect(image).toBeInTheDocument();
   });
 
+  it('this shoul retorn an image from axios call', () => {
+    render(<AllHeros heros={MockHeros} />);
+
+    const image = screen.getByRole('img', { name: '3-D Man' });
+    expect(image).toBeInTheDocument();
+  });
+
   it('this should get an array using getStatic props from SS', async () => {
     render(<Home heros={MockHeros} />);
   });

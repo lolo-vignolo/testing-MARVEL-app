@@ -21,6 +21,14 @@
       "@/styles/*": ["styles/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "types.d.ts"],
+  "include": [
+    "__tests__/footer.test.jsx",
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "types.d.ts",
+    "__tests__/localS.test.js",
+    "__tests__/allHeros.test.jsx"
+  ],
   "exclude": ["node_modules"]
 }
