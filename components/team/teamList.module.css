@@ -1,0 +1,5 @@
+.container {
+  margin: var(--size-8) auto;
+  max-width: 60rem;
+  width: 90%;
+}

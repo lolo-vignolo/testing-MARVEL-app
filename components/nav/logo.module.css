@@ -1,0 +1,13 @@
+.divlog {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .divlog {
+    margin-bottom: 1rem;
+    width: 12rem;
+  }
+}

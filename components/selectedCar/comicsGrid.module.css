@@ -1,0 +1,15 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin-left: -2.5rem;
+  margin-top: var(--size-10);
+  width: 95%;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    justify-content: space-around;
+  }
+}
